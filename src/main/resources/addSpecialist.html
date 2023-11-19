@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Specialist</title>
+</head>
+<body>
+<h1>Add Specialist</h1>
+<form action="/add-specialist" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="specialty">Specialty:</label>
+  <input type="text" id="specialty" name="specialty" required><br>
+
+  <!-- Другие поля, такие как контактная информация и т. д. -->
+
+  <button type="submit">Add Specialist</button>
+</form>
+</body>
+</html>

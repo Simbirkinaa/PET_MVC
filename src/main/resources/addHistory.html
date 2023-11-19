@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Medical History</title>
+</head>
+<body>
+<h1>Add Medical History</h1>
+<form action="/add-medical-history" method="post">
+  <label for="description">Description:</label>
+  <input type="text" id="description" name="description" required><br>
+
+  <!-- Другие поля, такие как дата начала лечения, назначенные процедуры и т. д. -->
+
+  <button type="submit">Add Medical History</button>
+</form>
+</body>
+</html>
